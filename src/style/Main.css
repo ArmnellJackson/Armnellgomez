@@ -1,0 +1,42 @@
+main {
+    width: 100%;
+}
+
+.proyectos {
+    padding: 58px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.proyectos a {
+    width: auto;
+    height: 150px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 140px;
+}
+
+.style-card {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 230px;
+    height: 350px;
+}
+
+.card-img-top:hover {
+    opacity: 0.6;
+}
+
+.card-body {
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    background: var(--third-color);
+    /* background-image: url('./img/descargar\ \(1\).jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+header section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    width: 42px;
+    margin: 0;
+    padding: 0;
+}
