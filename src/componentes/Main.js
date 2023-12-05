@@ -1,32 +1,28 @@
 import React from 'react';
 import '../style/Main.css';
-import HTMLyCSS from '../img/222-2229726_intro-to-html-css-html-css-icon.png';
+import HTMLyCSS from '../img/HTMLyCSS.png';
 import ImgReact from '../img/React_js.jpeg';
+import Card from './Card';
 
 
 function Main() {
     return (
         <>
             <main>
-                <section class="proyectos">
-                    <div class="card style-card">
-                        <a href="./html-css.html">
-                            <img src={HTMLyCSS} class="card-img-top" alt="html-css" />
-                        </a>
-                        <div class="card-body">
-                            <p class="card-text">En esta sección se encuentran mis proyectos más básicos hechos solo con HTML &
-                                CSS.</p>
-                        </div>
-                    </div>
+                <section className="proyectos">
+                    <Card
+                        href='#'
+                        img={HTMLyCSS}
+                        alt='logo html y css'
+                        text='En esta sección se encuentran mis proyectos más básicos hechos solo con HTML & CSS.'
+                    />
 
-                    <div class="card style-card">
-                        <a href="./react-js.html">
-                            <img src={ImgReact} class="card-img-top" alt="react.js" />
-                        </a>
-                        <div class="card-body">
-                            <p class="card-text">En esta sección se encuentran mis primeros proyectos hechos en React.js.</p>
-                        </div>
-                    </div>
+                    <Card
+                        href='#'
+                        img={ImgReact}
+                        alt='logo react.js'
+                        text='En esta sección se encuentran mis primeros proyectos hechos en React.js.'
+                    />
                 </section>
             </main>
         </>
