@@ -9,7 +9,7 @@ footer {
     background: var(--third-color);
 }
 
-footer .social {
+footer .social-footer {
     display: flex;
     gap: 7.5px;
 }
@@ -31,6 +31,5 @@ footer div .autor p {
 }
 
 .logo-footer {
-    margin-bottom: 3px;
     width: 26px;
 }

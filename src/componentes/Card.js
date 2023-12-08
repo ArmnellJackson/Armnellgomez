@@ -1,12 +1,11 @@
 import React from 'react';
 import '../style/Card.css';
 
-
-function Card({ href, img, alt, text }) {
+function Card({ onClick, href, img, alt, text }) {
     return (
         <>
-            <div className="card style-card">
-                <a href={href}>
+            <div className="card style-card" onClick={onClick}>
+                <a href={href} target="_blank" rel="noopener noreferrer">
                     <img src={img} className="card-img-top" alt={alt} />
                 </a>
                 <div className="card-body">
@@ -14,7 +13,7 @@ function Card({ href, img, alt, text }) {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
 export default Card;

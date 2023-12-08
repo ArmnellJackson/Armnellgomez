@@ -1,3 +1,8 @@
+ul {
+  background: var(--third-color);
+  padding: 2.5px 7.5px !important;
+}
+
 .nav-pills .nav-link:hover {
-    color: var(--fourth-color);
-  }
+  color: var(--fourth-color);
+}
