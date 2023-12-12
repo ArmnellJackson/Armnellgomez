@@ -21,7 +21,6 @@ function Proyectos() {
                     ) : (
                         <>
                             <Card
-                                onClick={toggleVista}
                                 img={HTMLyCSS}
                                 alt='logo html y css'
                                 text='En esta sección se encuentran mis proyectos más básicos hechos solo con HTML & CSS.'
