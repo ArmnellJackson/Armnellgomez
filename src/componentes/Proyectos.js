@@ -20,11 +20,11 @@ function Proyectos() {
                         <ProyectosReact />
                     ) : (
                         <>
-                            <Card
+                            {/* <Card
                                 img={HTMLyCSS}
                                 alt='logo html y css'
                                 text='En esta sección se encuentran mis proyectos más básicos hechos solo con HTML & CSS.'
-                            />
+                            /> */}
                             <Card
                                 onClick={toggleVista}
                                 img={ImgReact}
