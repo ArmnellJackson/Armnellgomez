@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ArmnellGomez.github.io/static/css/main.55a7e529.css",
+    "main.js": "/ArmnellGomez.github.io/static/js/main.de3350ee.js",
+    "static/media/HTMLyCSS.png": "/ArmnellGomez.github.io/static/media/HTMLyCSS.3a468e6aacadd12358f6.png",
+    "static/media/logo-para-fondo-oscuro.png": "/ArmnellGomez.github.io/static/media/logo-para-fondo-oscuro.0661e63a709d645df618.png",
+    "static/media/React_js.jpeg": "/ArmnellGomez.github.io/static/media/React_js.c6c592159452e4ddf414.jpeg",
+    "static/media/Contador-de-Clicks.png": "/ArmnellGomez.github.io/static/media/Contador-de-Clicks.c6d9569f325c8d9e8563.png",
+    "index.html": "/ArmnellGomez.github.io/index.html",
+    "main.55a7e529.css.map": "/ArmnellGomez.github.io/static/css/main.55a7e529.css.map",
+    "main.de3350ee.js.map": "/ArmnellGomez.github.io/static/js/main.de3350ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55a7e529.css",
+    "static/js/main.de3350ee.js"
+  ]
+}
