@@ -30,6 +30,6 @@ footer div .autor p {
     color: var(--first-color);
 }
 
-.logo-footer {
+.logo-footer a img {
     width: 26px;
 }
