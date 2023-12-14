@@ -24,19 +24,19 @@ function ProyectosHtmlCss() {
 				text='Card en la que implemente FlexBox y Grid.'
 			/>
 
-			{/* <Card
-				href=''
+			<Card
+				href='https://armnellgomez-clone-de-google.s3.amazonaws.com/index.html'
 				img={ImgLogoGoogle}
 				alt='google'
 				text='Clon del buscador de Google(Aun no es Responsive).'
 			/>
 
 			<Card
-				href=''
+				href='https://armnellgomez-my-team-page.s3.amazonaws.com/index.html'
 				img={MarvelAndDC}
 				alt='marvel y dc'
 				text='Pagina de mi equipo de trabajo.'
-			/> */}
+			/>
 
 			<Card
 				href='https://armnellgomez-reproductor-de-mmusica.s3.amazonaws.com/index.html'

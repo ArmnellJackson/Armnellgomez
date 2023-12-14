@@ -33,13 +33,13 @@ function Proyectos() {
 								onClick={mostrarProyectosHtmlCss}
 								img={HTMLyCSS}
 								alt='logo html y css'
-								text='En esta sección se encuentran mis proyectos más básicos hechos solo con HTML & CSS.'
+								text='Mis proyectos más básicos hechos con HTML & CSS.'
 							/>
 							<Card
 								onClick={mostrarProyectosReact}
 								img={ImgReact}
 								alt='logo react.js'
-								text='En esta sección se encuentran mis primeros proyectos hechos en React.js.'
+								text='Mis primeros proyectos hechos en React.js.'
 							/>
 						</>
 					)}
