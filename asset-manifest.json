@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cd75d65.css",
-    "main.js": "/static/js/main.7a8fc9de.js",
+    "main.css": "/static/css/main.cb4f9006.css",
+    "main.js": "/static/js/main.56b32855.js",
     "static/media/googleNameLogo.png": "/static/media/googleNameLogo.82317b837f791a423f01.png",
     "static/media/HTMLyCSS.png": "/static/media/HTMLyCSS.3a468e6aacadd12358f6.png",
     "static/media/404.jpeg": "/static/media/404.df5e5a554b69b4454f59.jpeg",
@@ -11,11 +11,11 @@
     "static/media/marvel-and-dc.jpg": "/static/media/marvel-and-dc.1d8edf6fbd459abf4e8a.jpg",
     "static/media/Contador-de-Clicks.png": "/static/media/Contador-de-Clicks.c6d9569f325c8d9e8563.png",
     "index.html": "/index.html",
-    "main.2cd75d65.css.map": "/static/css/main.2cd75d65.css.map",
-    "main.7a8fc9de.js.map": "/static/js/main.7a8fc9de.js.map"
+    "main.cb4f9006.css.map": "/static/css/main.cb4f9006.css.map",
+    "main.56b32855.js.map": "/static/js/main.56b32855.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cd75d65.css",
-    "static/js/main.7a8fc9de.js"
+    "static/css/main.cb4f9006.css",
+    "static/js/main.56b32855.js"
   ]
 }
