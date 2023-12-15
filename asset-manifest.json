@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb4f9006.css",
-    "main.js": "/static/js/main.6856dbc8.js",
+    "main.css": "/static/css/main.42c8808d.css",
+    "main.js": "/static/js/main.541a2319.js",
     "static/media/googleNameLogo.png": "/static/media/googleNameLogo.82317b837f791a423f01.png",
     "static/media/HTMLyCSS.png": "/static/media/HTMLyCSS.3a468e6aacadd12358f6.png",
     "static/media/404.jpeg": "/static/media/404.df5e5a554b69b4454f59.jpeg",
     "static/media/cardPlatzi.png": "/static/media/cardPlatzi.b819e47122c09a318cd6.png",
     "static/media/logo-para-fondo-oscuro.png": "/static/media/logo-para-fondo-oscuro.0661e63a709d645df618.png",
+    "static/media/calculadora-react.png": "/static/media/calculadora-react.6c0736678fef9a13dce5.png",
     "static/media/React_js.jpeg": "/static/media/React_js.c6c592159452e4ddf414.jpeg",
     "static/media/marvel-and-dc.jpg": "/static/media/marvel-and-dc.1d8edf6fbd459abf4e8a.jpg",
     "static/media/Contador-de-Clicks.png": "/static/media/Contador-de-Clicks.c6d9569f325c8d9e8563.png",
     "index.html": "/index.html",
-    "main.cb4f9006.css.map": "/static/css/main.cb4f9006.css.map",
-    "main.6856dbc8.js.map": "/static/js/main.6856dbc8.js.map"
+    "main.42c8808d.css.map": "/static/css/main.42c8808d.css.map",
+    "main.541a2319.js.map": "/static/js/main.541a2319.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb4f9006.css",
-    "static/js/main.6856dbc8.js"
+    "static/css/main.42c8808d.css",
+    "static/js/main.541a2319.js"
   ]
 }
