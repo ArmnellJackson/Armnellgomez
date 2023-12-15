@@ -5,7 +5,7 @@ import '../style/Footer.css';
 function Footer() {
     return (
         <>
-            <footer className='fixed-bottom'>
+            <footer>
                 <section className="social-footer">
                     <a href="https://github.com/ArmnellJackson" target="_blank" rel="noreferrer">
                     <i className="bi bi-github" style={{ color: 'var(--first-color)' }}></i>

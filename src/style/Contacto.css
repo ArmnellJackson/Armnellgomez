@@ -1,0 +1,58 @@
+:root {
+    --first-color: #EEEEEE;
+    --second-color: #32E0C4;
+    --third-color: #0D7377;
+    --fourth-color: #212121;
+}
+
+.form-container {
+    padding: 58px 7.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+    border: 1px solid var(--second-color);
+    border-radius: 12px;
+    margin: 0;
+}
+
+.form-container input, textarea {
+    min-width: 280px;
+    text-align: center;
+    color: var(--first-color);
+    background-color: var(--second-color);
+    border: none;
+}
+
+.form-container input, textarea:focus-visible {
+    border: none;
+}
+
+.form-nombre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.form-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.form-mensaje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.form-button {
+
+}
