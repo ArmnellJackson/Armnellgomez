@@ -20,7 +20,7 @@ function Contacto() {
 					</div>
 					<button className='form-button' type="submit">Enviar</button>
 					<input type="hidden" name="_captcha" value="false" />
-					<input type="hidden" name="_next" value="https://armnellgomez.com" />
+					<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html" />
 				</form>
 			</main>
 		</>

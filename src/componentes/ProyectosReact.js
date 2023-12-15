@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card';
 import ImgFreeCodeCamp from '../img/freeCodeCamp-logo.jpeg';
 import ImgContadorClicks from '../img/Contador-de-Clicks.png';
+import Calculadora from '../img/calculadora-react.png';
 
 
 function ProyectosReact() {
@@ -19,6 +20,13 @@ function ProyectosReact() {
 				img={ImgContadorClicks}
 				alt='contador de clicks'
 				text='Esto es un contador de clicks donde practique el uso de useState.'
+			/>
+
+			<Card
+				href='https://armnellgomez-calculadora-react.s3.amazonaws.com/index.html'
+				img={Calculadora}
+				alt='calculadora'
+				text='Calculadora.'
 			/>
 		</>
 	)
