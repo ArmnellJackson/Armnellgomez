@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c03277b3.css",
+    "main.css": "/static/css/main.d4911aeb.css",
     "main.js": "/static/js/main.c859ee70.js",
     "static/media/googleNameLogo.png": "/static/media/googleNameLogo.82317b837f791a423f01.png",
     "static/media/HTMLyCSS.png": "/static/media/HTMLyCSS.3a468e6aacadd12358f6.png",
@@ -12,11 +12,11 @@
     "static/media/marvel-and-dc.jpg": "/static/media/marvel-and-dc.1d8edf6fbd459abf4e8a.jpg",
     "static/media/Contador-de-Clicks.png": "/static/media/Contador-de-Clicks.c6d9569f325c8d9e8563.png",
     "index.html": "/index.html",
-    "main.c03277b3.css.map": "/static/css/main.c03277b3.css.map",
+    "main.d4911aeb.css.map": "/static/css/main.d4911aeb.css.map",
     "main.c859ee70.js.map": "/static/js/main.c859ee70.js.map"
   },
   "entrypoints": [
-    "static/css/main.c03277b3.css",
+    "static/css/main.d4911aeb.css",
     "static/js/main.c859ee70.js"
   ]
 }
