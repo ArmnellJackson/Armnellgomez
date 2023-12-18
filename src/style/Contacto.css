@@ -31,7 +31,7 @@
 
 .form-container input,
 textarea {
-    width: 275px;
+    width: 290px;
     border-radius: 8px;
     text-align: center;
     color: var(--first-color) !important;
@@ -93,10 +93,6 @@ textarea:focus-visible {
 }
 
 @media (min-width: 576px) {
-    .form-container {
-        width: auto;
-    }
-
     .form-container input,
     textarea {
         width: 560px;

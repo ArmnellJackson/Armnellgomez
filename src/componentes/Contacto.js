@@ -8,7 +8,7 @@ function Contacto() {
 				<form className='form-container' action="https://formsubmit.co/a78f714ae2013431f543e769c610b36a" method="POST">
 					<div className='form-nombre'>
 						<label>Nombre</label>
-						<input type="text" name="name" placeholder='Tu nombre o el nombre de tu empresa.' required />
+						<input type="text" name="name" placeholder='Persona/Empresa.' required />
 					</div>
 					<div className='form-email'>
 						<label>Correo Electrónico</label>
