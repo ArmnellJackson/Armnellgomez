@@ -8,11 +8,11 @@ function Contacto() {
 				<form className='form-container' action="https://formsubmit.co/a78f714ae2013431f543e769c610b36a" method="POST">
 					<div className='form-nombre'>
 						<label>Nombre</label>
-						<input type="text" name="name" required />
+						<input type="text" name="name" placeholder='Tu nombre o el nombre de tu empresa.' required />
 					</div>
 					<div className='form-email'>
 						<label>Correo Electrónico</label>
-						<input type="email" name="email" required />
+						<input type="email" name="email" placeholder='tuEmail@email.com' required />
 					</div>
 					<div className='form-mensaje'>
 						<label>Mensaje</label>

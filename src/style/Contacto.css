@@ -6,26 +6,48 @@
 }
 
 .form-container {
+    width: auto;
+    min-height: 300px;
     padding: 58px 7.5px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 5px;
-    border: 1px solid var(--second-color);
     border-radius: 12px;
     margin: 0;
+    background: var(--fourth-color);
+    gap: 20px;
 }
 
-.form-container input, textarea {
-    min-width: 280px;
-    text-align: center;
+.form-container label {
+    letter-spacing: 2px;
     color: var(--first-color);
-    background-color: var(--second-color);
-    border: none;
+
 }
 
-.form-container input, textarea:focus-visible {
+.form-container input {
+    min-height: 40px;
+}
+
+.form-container input,
+textarea {
+    width: 275px;
+    border-radius: 8px;
+    text-align: center;
+    color: var(--first-color) !important;
+    background-color: var(--third-color);
+    border: none;
+    letter-spacing: 2px;
+}
+
+.form-container textarea {
+    resize: none;
+    overflow: hidden;
+    min-height: 100px;
+}
+
+.form-container input,
+textarea:focus-visible {
     border: none;
 }
 
@@ -34,7 +56,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 5px;
 }
 
 .form-email {
@@ -42,7 +63,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 5px;
 }
 
 .form-mensaje {
@@ -50,9 +70,86 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 5px;
 }
 
 .form-button {
+    background: var(--second-color);
+    padding: 4px 28px;
+    border-radius: 8px;
+}
 
+@media (min-width: 426px) {
+    .form-container input,
+    textarea {
+        width: 410px;
+    }
+}
+
+@media (min-width: 500px) {
+    .form-container input,
+    textarea {
+        width: 470px;
+    }
+}
+
+@media (min-width: 576px) {
+    .form-container {
+        width: auto;
+    }
+
+    .form-container input,
+    textarea {
+        width: 560px;
+    }
+}
+
+
+
+
+/* Anular estilos de autofill para input en varios navegadores */
+.form-container input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s !important;
+    background-color: transparent !important;
+    color: var(--first-color) !important;
+}
+
+/* Anular estilos de autofill para Firefox */
+.form-container :-moz-placeholder {
+    transition: background-color 5000s ease-in-out 0s !important;
+    background-color: transparent !important;
+    color: var(--first-color) !important;
+}
+
+/* Anular estilos de autofill para Edge */
+input:-ms-input-placeholder {
+    transition: background-color 5000s ease-in-out 0s !important;
+    background-color: transparent !important;
+    color: var(--first-color) !important;
+}
+
+/* Anular estilos de autofill para Opera */
+input:-o-placeholder {
+    transition: background-color 5000s ease-in-out 0s !important;
+    background-color: transparent !important;
+    color: var(--first-color) !important;
+}
+
+/* Anular estilos de autofill para cualquier otro navegador */
+input::placeholder {
+    transition: background-color 5000s ease-in-out 0s !important;
+    background-color: transparent !important;
+    color: var(--first-color) !important;
+}
+
+/* Evitar cambio de color de texto durante el hover */
+input:hover {
+    color: var(--first-color) !important;
+}
+
+/* Evitar cambio de color de texto durante la selección */
+input::selection {
+    color: var(--first-color) !important;
 }
