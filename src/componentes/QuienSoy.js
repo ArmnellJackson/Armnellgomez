@@ -17,6 +17,8 @@ function QuienSoy() {
 							Como dijo Muhammad Ali…
 							<br />
 							“No cuentes los días, haz que los días cuenten.”
+							<br />
+							Esta frase me recuerda que debo aprovechar cada día al máximo y hacer que cada día cuente.
 						</p>
 					</div>
 				</div>
