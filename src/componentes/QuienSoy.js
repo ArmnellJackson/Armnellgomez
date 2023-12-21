@@ -7,7 +7,7 @@ function QuienSoy() {
 			<main>
 					<div className='quien-soy-container'>
 						<p className='quien-soy-text'>
-							Comencé mi camino en el desarrollo web en el año en el 2021, al comienzo fue muy lento ya que mi trabajo me dejaba muy poco tiempo para poder estudiar y practicar.
+							Comencé mi camino en el desarrollo web en el año 2021, al comienzo fue muy lento ya que mi trabajo en esos momentos me dejaba muy poco tiempo para poder estudiar y practicar.
 							<br /><br />
 							Aunque soy relativamente nuevo en todo esto, ya he adquirido conocimientos en tecnologías como React.js, Bootstrap, Git y GitHub, AWS, y he explorado el diseño con Figma. Sin olvidar HTML y CSS que es por donde muchos decidimos comenzar.
 							<br /><br />
@@ -15,9 +15,7 @@ function QuienSoy() {
 							<br /><br />
 							Como dijo Muhammad Ali…
 							<br />
-							“No cuentes los días, haz que los días cuenten.”
-							<br />
-							Esta frase me recuerda que debo aprovechar cada día al máximo y hacer que cada día cuente.
+							“No cuentes los días, haz que los días cuenten.” Esta frase me recuerda que debo aprovechar cada día al máximo y hacer que cada día cuente.
 						</p>
 					</div>
 			</main>
