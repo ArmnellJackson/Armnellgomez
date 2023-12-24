@@ -1,48 +1,37 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../style/Proyectos.css';
-import HTMLyCSS from '../img/HTMLyCSS.png';
-import ImgReact from '../img/React_js.jpeg';
 import Card from './Card';
-import ProyectosReact from './ProyectosReact';
-import ProyectosHtmlCss from './ProyectosHtmlCss';
+import ImgFreeCodeCamp from '../img/freeCodeCamp-logo.jpeg';
+import ImgContadorClicks from '../img/Contador-de-Clicks.png';
+import Calculadora from '../img/calculadora-react.png';
 
 function Proyectos() {
-	const [proyectosHtmlCss, setProyectosHtmlCss] = useState(false);
-	const [proyectosReact, setProyectosReact] = useState(false);
-
-	const mostrarProyectosHtmlCss = () => {
-		setProyectosHtmlCss(true);
-	};
-
-	const mostrarProyectosReact = () => {
-		setProyectosReact(true);
-	};
 
 	return (
 		<>
 			<main>
 				<section className="proyectos">
 
-					{proyectosHtmlCss ? (
-						<ProyectosHtmlCss />
-					) : proyectosReact ? (
-						<ProyectosReact />
-					) : (
-						<>
-							<Card
-								onClick={mostrarProyectosHtmlCss}
-								img={HTMLyCSS}
-								alt='logo html y css'
-								text='Mis proyectos más básicos hechos con HTML & CSS.'
-							/>
-							<Card
-								onClick={mostrarProyectosReact}
-								img={ImgReact}
-								alt='logo react.js'
-								text='Mis primeros proyectos hechos en React.js.'
-							/>
-						</>
-					)}
+				<Card
+				href='https://armnellgomez-clone-testimonios-freecodecamp-react.s3.amazonaws.com/index.html'
+				img={ImgFreeCodeCamp}
+				alt='logo freecodecamp'
+				text='Pagina de testimonios de FreeCodeCamp. En este proyecto practique el uso de las props.'
+			/>
+
+			<Card
+				href='https://armnellgomez-contador-de-clics-react.s3.amazonaws.com/index.html'
+				img={ImgContadorClicks}
+				alt='contador de clicks'
+				text='Esto es un contador de clicks donde practique el uso de useState.'
+			/>
+
+			<Card
+				href='https://armnellgomez-calculadora-react.s3.amazonaws.com/index.html'
+				img={Calculadora}
+				alt='calculadora'
+				text='Calculadora.'
+			/>
 				</section>
 			</main>
 		</>
