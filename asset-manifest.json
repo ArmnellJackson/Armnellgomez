@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7136c298.css",
-    "main.js": "/static/js/main.1140abee.js",
+    "main.css": "/static/css/main.9da91eab.css",
+    "main.js": "/static/js/main.26dc88eb.js",
     "static/media/logo-para-fondo-oscuro.png": "/static/media/logo-para-fondo-oscuro.0661e63a709d645df618.png",
-    "static/media/calculadora-react.png": "/static/media/calculadora-react.6c0736678fef9a13dce5.png",
+    "static/media/calculadora-react.png": "/static/media/calculadora-react.c725f973d432e5b95d02.png",
     "static/media/Contador-de-Clicks.png": "/static/media/Contador-de-Clicks.c6d9569f325c8d9e8563.png",
     "index.html": "/index.html",
-    "main.7136c298.css.map": "/static/css/main.7136c298.css.map",
-    "main.1140abee.js.map": "/static/js/main.1140abee.js.map"
+    "main.9da91eab.css.map": "/static/css/main.9da91eab.css.map",
+    "main.26dc88eb.js.map": "/static/js/main.26dc88eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7136c298.css",
-    "static/js/main.1140abee.js"
+    "static/css/main.9da91eab.css",
+    "static/js/main.26dc88eb.js"
   ]
 }
