@@ -17,6 +17,10 @@
     margin: 0;
     background: var(--fourth-color);
     gap: 20px;
+    border: 3px solid var(--second-color);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .form-container label {

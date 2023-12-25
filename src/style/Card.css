@@ -8,10 +8,14 @@
 .style-card {
 	width: 180px;
 	min-height: 250px;
-	border: 1px solid var(--second-color);
-	border-radius: 12px;
+	background: var(--fourth-color);
+	color: var(--first-color);
+	font-weight: 200;
+	letter-spacing: 1px;
+	border-radius: 16px;
 	text-align: center;
 	overflow: hidden;
+	border: 3px solid var(--second-color);
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
